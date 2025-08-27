@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.yellow {
+  box-shadow: rgba(229, 255, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.35s;
+}
+
+.gray {
+  box-shadow: rgba(0, 0, 0, 0.451) 0px -50px 36px -28px inset;
+  transition: all 0.35s;
+}
+
+.green {
+  box-shadow: rgba(0, 255, 68, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.35s;
+}
+
+.red {
+  box-shadow: rgba(255, 0, 0, 0.35) 0px -50px 36px -28px inset;
+  transition: all 0.35s;
+}
